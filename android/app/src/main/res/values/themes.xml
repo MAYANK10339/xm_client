@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.XMClient" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/xm_primary</item>
+        <item name="colorOnPrimary">@color/xm_text_primary</item>
+        <item name="android:windowBackground">@color/xm_background</item>
+        <item name="android:statusBarColor">@color/xm_background</item>
+        <item name="android:navigationBarColor">@color/xm_background</item>
+    </style>
+
+    <style name="Theme.XMClient.Fullscreen" parent="Theme.XMClient">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

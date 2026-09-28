@@ -1,0 +1,13 @@
+{
+  "curseforge_key": "$2a$10$nG7BYyOwf3t09Ibut0eA4Ort7hIxI/oYWOqjO0phh.FIz/mwvaEPO",
+  "modrinth_url": "https://api.modrinth.com/v2",
+  "versions": [
+    "1.21.1",
+    "1.20.1"
+  ],
+  "loaders": [
+    "fabric",
+    "neoforge"
+  ],
+  "duplicate_prevention": true
+}

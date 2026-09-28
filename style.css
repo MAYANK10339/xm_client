@@ -152,6 +152,19 @@ h1, h2, h3, h4 {
   background: linear-gradient(135deg, #38bdf8, #00e5ff);
 }
 
+.btn-android {
+  background: linear-gradient(135deg, #10b981, #047857);
+  color: #ffffff;
+  padding: 14px 26px;
+  box-shadow: 0 0 24px rgba(16, 185, 129, 0.35);
+}
+
+.btn-android:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(16, 185, 129, 0.55);
+  background: linear-gradient(135deg, #34d399, #10b981);
+}
+
 .btn-secondary {
   background: rgba(255, 255, 255, 0.05);
   color: var(--text-primary);

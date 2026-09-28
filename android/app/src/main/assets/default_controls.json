@@ -1,0 +1,154 @@
+{
+  "name": "XM Default Layout",
+  "author": "Mayank Mandrai",
+  "locked_versions": [
+    "1.21.1",
+    "1.20.1"
+  ],
+  "locked_loaders": [
+    "fabric",
+    "neoforge"
+  ],
+  "buttons": [
+    {
+      "id": "btn_w",
+      "label": "W",
+      "x": 0.12,
+      "y": 0.58,
+      "width": 60,
+      "height": 60,
+      "keyCode": 87
+    },
+    {
+      "id": "btn_a",
+      "label": "A",
+      "x": 0.05,
+      "y": 0.72,
+      "width": 60,
+      "height": 60,
+      "keyCode": 65
+    },
+    {
+      "id": "btn_s",
+      "label": "S",
+      "x": 0.12,
+      "y": 0.72,
+      "width": 60,
+      "height": 60,
+      "keyCode": 83
+    },
+    {
+      "id": "btn_d",
+      "label": "D",
+      "x": 0.19,
+      "y": 0.72,
+      "width": 60,
+      "height": 60,
+      "keyCode": 68
+    },
+    {
+      "id": "btn_sprint",
+      "label": "SPRINT",
+      "x": 0.12,
+      "y": 0.44,
+      "width": 68,
+      "height": 40,
+      "keyCode": 341,
+      "isToggle": true
+    },
+    {
+      "id": "btn_sneak",
+      "label": "SNEAK",
+      "x": 0.12,
+      "y": 0.86,
+      "width": 68,
+      "height": 40,
+      "keyCode": 340,
+      "isToggle": true
+    },
+    {
+      "id": "btn_jump",
+      "label": "JUMP",
+      "x": 0.88,
+      "y": 0.74,
+      "width": 72,
+      "height": 72,
+      "keyCode": 32,
+      "isRound": true
+    },
+    {
+      "id": "btn_attack",
+      "label": "ATTACK",
+      "x": 0.78,
+      "y": 0.6,
+      "width": 76,
+      "height": 76,
+      "keyCode": 1001,
+      "isRound": true
+    },
+    {
+      "id": "btn_use",
+      "label": "USE",
+      "x": 0.88,
+      "y": 0.48,
+      "width": 72,
+      "height": 72,
+      "keyCode": 1002,
+      "isRound": true
+    },
+    {
+      "id": "btn_inv",
+      "label": "INV",
+      "x": 0.5,
+      "y": 0.88,
+      "width": 70,
+      "height": 44,
+      "keyCode": 69
+    },
+    {
+      "id": "btn_f3",
+      "label": "F3",
+      "x": 0.05,
+      "y": 0.1,
+      "width": 48,
+      "height": 36,
+      "keyCode": 292
+    },
+    {
+      "id": "btn_f5",
+      "label": "F5",
+      "x": 0.12,
+      "y": 0.1,
+      "width": 48,
+      "height": 36,
+      "keyCode": 294
+    },
+    {
+      "id": "btn_zoom",
+      "label": "ZOOM",
+      "x": 0.19,
+      "y": 0.1,
+      "width": 56,
+      "height": 36,
+      "keyCode": 67
+    },
+    {
+      "id": "btn_chat",
+      "label": "CHAT",
+      "x": 0.5,
+      "y": 0.1,
+      "width": 60,
+      "height": 36,
+      "keyCode": 84
+    },
+    {
+      "id": "btn_pause",
+      "label": "ESC",
+      "x": 0.94,
+      "y": 0.1,
+      "width": 48,
+      "height": 36,
+      "keyCode": 256
+    }
+  ]
+}

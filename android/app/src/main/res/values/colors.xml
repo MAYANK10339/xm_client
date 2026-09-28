@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- XM Client Signature Palette -->
+    <color name="xm_primary">#DC2626</color>
+    <color name="xm_primary_glow">#EF4444</color>
+    <color name="xm_primary_dark">#991B1B</color>
+
+    <color name="xm_background">#09090B</color>
+    <color name="xm_surface">#121215</color>
+    <color name="xm_surface_card">#18181B</color>
+    <color name="xm_surface_card_hover">#222227</color>
+    <color name="xm_border">#27272A</color>
+    <color name="xm_border_active">#DC2626</color>
+
+    <color name="xm_text_primary">#FFFFFF</color>
+    <color name="xm_text_secondary">#A1A1AA</color>
+    <color name="xm_text_muted">#71717A</color>
+
+    <!-- Status & Badges -->
+    <color name="xm_installed_green">#10B981</color>
+    <color name="xm_installed_green_bg">#064E3B</color>
+    <color name="xm_modrinth_green">#1BD96A</color>
+    <color name="xm_modrinth_bg">#052E16</color>
+    <color name="xm_curseforge_orange">#F16436</color>
+    <color name="xm_curseforge_bg">#431407</color>
+
+    <!-- Virtual Controls -->
+    <color name="xm_control_button_bg">#8018181B</color>
+    <color name="xm_control_button_stroke">#B3DC2626</color>
+    <color name="xm_control_button_pressed">#CCDC2626</color>
+</resources>

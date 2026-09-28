@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xm_background">
+
+    <!-- The Interactive Canvas Editor -->
+    <com.xmclient.mobile.controls.ControlEditorView
+        android:id="@+id/editor_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Top Action Bar -->
+    <LinearLayout
+        android:id="@+id/top_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D909090B"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XM TOUCH CONTROLS EDITOR"
+            android:textColor="@color/xm_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <!-- Add Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginEnd="8dp"
+            android:text="+ ADD BUTTON"
+            android:textColor="@color/xm_text_primary"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/xm_primary"
+            app:cornerRadius="6dp" />
+
+        <!-- Reset Default -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_reset_default"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginEnd="8dp"
+            android:text="RESET"
+            android:textColor="@color/xm_text_secondary"
+            android:textSize="11sp"
+            app:backgroundTint="#27272A"
+            app:cornerRadius="6dp" />
+
+        <!-- Save Layout -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginEnd="8dp"
+            android:text="SAVE"
+            android:textColor="@color/xm_text_primary"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/xm_installed_green"
+            app:cornerRadius="6dp" />
+
+        <!-- Close / Exit -->
+        <ImageButton
+            android:id="@+id/btn_close_editor"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="#27272A"
+            android:contentDescription="Exit"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="@color/xm_text_primary" />
+    </LinearLayout>
+
+    <!-- Bottom Selected Button Properties Bar (Visible when a button is selected) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_button_props"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="#F218181B"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp">
+
+            <TextView
+                android:id="@+id/tv_selected_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button: W"
+                android:textColor="@color/xm_primary_glow"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_selected_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:text="Key: GLFW_KEY_W"
+                android:textColor="@color/xm_text_secondary"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <!-- Size Controls -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:text="Size:"
+                android:textColor="@color/xm_text_muted"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_size_minus"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="#27272A"
+                android:text="-"
+                android:textColor="@color/xm_text_primary"
+                android:textSize="16sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/btn_size_plus"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="16dp"
+                android:background="#27272A"
+                android:text="+"
+                android:textColor="@color/xm_text_primary"
+                android:textSize="16sp"
+                app:backgroundTint="@null" />
+
+            <!-- Delete Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="DELETE"
+                android:textColor="@color/xm_text_primary"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:backgroundTint="#B91C1C"
+                app:cornerRadius="6dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

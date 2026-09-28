@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">XM CLIENT</string>
+    <string name="app_subtitle">The Ultimate High-Performance Minecraft Client</string>
+    <string name="author_tag">BY MAYANK MANDRAI</string>
+
+    <!-- Version & Loader -->
+    <string name="ver_1_21_1">Minecraft 1.21.1</string>
+    <string name="ver_1_20_1">Minecraft 1.20.1</string>
+    <string name="loader_fabric">Fabric Loader</string>
+    <string name="loader_neoforge">NeoForge Loader</string>
+
+    <!-- Buttons -->
+    <string name="btn_launch_game">LAUNCH GAME</string>
+    <string name="btn_xmods_store">XMODS STORE</string>
+    <string name="btn_controls_editor">CUSTOM CONTROLS</string>
+    <string name="btn_install">INSTALL</string>
+    <string name="btn_installed">INSTALLED</string>
+    <string name="btn_uninstall">UNINSTALL</string>
+    <string name="btn_download_dep">DOWNLOAD</string>
+    <string name="btn_add_button">+ ADD BUTTON</string>
+    <string name="btn_save_controls">SAVE LAYOUT</string>
+    <string name="btn_reset_controls">RESET DEFAULT</string>
+
+    <!-- Search & Filters -->
+    <string name="search_hint">Search Mods across Modrinth &amp; CurseForge...</string>
+    <string name="filter_all">All Sources</string>
+    <string name="filter_modrinth">Modrinth</string>
+    <string name="filter_curseforge">CurseForge</string>
+    <string name="dependencies_header">Required Dependencies</string>
+    <string name="no_dependencies">No dependencies required. Safe to install!</string>
+    <string name="duplicate_warning">Mod already exists in your mods folder. Re-installation disabled.</string>
+</resources>
